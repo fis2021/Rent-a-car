@@ -7,6 +7,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+import java.awt.event.MouseEvent;
+import java.beans.EventHandler;
+
 public class Main extends Application {
 
     double x,y = 0;
