@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="528.0" prefWidth="765.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.LoginController">
+   <children>
+      <TextField layoutX="257.0" layoutY="192.0" prefHeight="31.0" prefWidth="251.0" promptText="Username" style="-fx-background-color: #787880;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="257.0" layoutY="233.0" prefHeight="31.0" prefWidth="251.0" promptText="Passowrd" style="-fx-background-color: #787880;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="399.0" layoutY="285.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="103.0" style="-fx-background-color: #3E389C;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="257.0" layoutY="328.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="251.0" style="-fx-background-color: #3E389C;" text="Forgot password?" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="140.0" fitWidth="197.0" layoutX="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/car.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="330.0" layoutY="147.0" prefHeight="27.0" prefWidth="59.0" text="Rent a" textFill="#5bb4cd">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="147.0" prefHeight="27.0" prefWidth="30.0" text="Car" textFill="#a2b1b5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="208.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/iconfinder_user_male2_172626.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="208.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/iconfinder_icons_password_1564520.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="590.0" layoutY="32.0" prefHeight="39.0" prefWidth="121.0" style="-fx-border-color: #727272;" text="Sing in" textFill="WHITE" />
+      <JFXCheckBox layoutX="257.0" layoutY="285.0" prefHeight="27.0" prefWidth="121.0" text="Remember me" textFill="#eeeeee" />
+   </children>
+</AnchorPane>
