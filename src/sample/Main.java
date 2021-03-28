@@ -5,32 +5,38 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-
-import java.awt.event.MouseEvent;
-import java.beans.EventHandler;
 
 public class Main extends Application {
 
-    double x,y = 0;
+
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.initStyle(StageStyle.UNDECORATED);
+    public void start(Stage primaryStage){
 
-        root.setOnMousePressed(event -> {
-            x = event.getSceneX();
-            y = event.getSceneY();
-        });
+        try {
 
-        root.setOnMouseDragged(event -> {
-            primaryStage.setX(event.getSceneX() - x);
-            primaryStage.setY(event.getSceneX() - y);
-        });
-
-        primaryStage.setScene(new Scene(root, 1080, 720));
-        primaryStage.show();
+            Parent root = FXMLLoader.load(getClass().getResource("FXML/LoginMain.fxml"));
+            Scene scene = new Scene(root, 765, 528);
+            primaryStage.setScene(scene);
+            primaryStage.show();
+            primaryStage.setResizable(false);
+        } catch(Exception e){
+            e.printStackTrace();
+        }
+//        primaryStage.initStyle(StageStyle.UNDECORATED);
+//
+//        root.setOnMousePressed(event -> {
+//            x = event.getSceneX();
+//            y = event.getSceneY();
+//        });
+//
+//        root.setOnMouseDragged(event -> {
+//            primaryStage.setX(event.getSceneX() - x);
+//            primaryStage.setY(event.getSceneX() - y);
+//        });
+//
+//        primaryStage.setScene(new Scene(root, 1080, 720));
+//        primaryStage.show();
 
 
     }
