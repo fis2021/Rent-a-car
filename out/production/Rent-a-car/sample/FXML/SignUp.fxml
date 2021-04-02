@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="528.0" prefWidth="765.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SignUpController">
+   <children>
+      <ImageView fitHeight="140.0" fitWidth="197.0" layoutX="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/car.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="369.0" layoutY="428.0" prefHeight="39.0" prefWidth="113.0" />
+      <JFXButton fx:id="signIn" layoutX="260.0" layoutY="380.0" onAction="#signInAction" prefHeight="30.0" prefWidth="243.0" style="-fx-background-color: #3E389C;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="225.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/iconfinder_user_male2_172626.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="225.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/iconfinder_icon-email_211660.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="225.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/iconfinder_icons_password_1564520.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="login" layoutX="590.0" layoutY="32.0" onAction="#loginAction" prefHeight="39.0" prefWidth="121.0" style="-fx-border-color: #727272;" text="Login" textFill="WHITE" />
+      <Label layoutX="330.0" layoutY="147.0" prefHeight="27.0" prefWidth="67.0" text="Rent a" textFill="#5bb4cd">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="147.0" prefHeight="27.0" prefWidth="30.0" text="Car" textFill="#a2b1b5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstName" layoutX="262.0" layoutY="195.0" prefHeight="25.0" prefWidth="113.0" promptText="First Name" style="-fx-background-color: #787880;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="lastName" layoutX="390.0" layoutY="195.0" prefHeight="25.0" prefWidth="113.0" promptText="Last Name" style="-fx-background-color: #787880;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="username" layoutX="261.0" layoutY="263.0" prefHeight="30.0" prefWidth="243.0" promptText="exemple@exemple.com" style="-fx-background-color: #787880;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="262.0" layoutY="325.0" prefHeight="30.0" prefWidth="243.0" promptText="Passowrd" style="-fx-background-color: #787880;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
