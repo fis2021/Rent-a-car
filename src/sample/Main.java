@@ -13,10 +13,11 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXML/Dashboard.fxml"));
         Scene scene = new Scene(root, 1080, 720);
         primaryStage.setScene(scene);
-        primaryStage.setResizable(false);
         primaryStage.show();
-    }
+        primaryStage.setResizable(false);
 
+    }
+    //
     public static void main(String[] args) {
         launch(args);
     }
