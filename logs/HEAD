@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 3f3957f1b946c4128fdc11383e74243ca0a65517 Serban Radu <r.serbannn@gmail.com> 1615817785 +0200	commit (initial): Proiect basic cu .gitignore adaugat
+3f3957f1b946c4128fdc11383e74243ca0a65517 3f3957f1b946c4128fdc11383e74243ca0a65517 Șerban Radu <r.serbannn@gmail.com> 1615819323 +0200	checkout: moving from main to schimba_scene
+3f3957f1b946c4128fdc11383e74243ca0a65517 0000000000000000000000000000000000000000 Șerban Radu <r.serbannn@gmail.com> 1616241495 +0200	Branch: renamed refs/heads/schimba_scene to refs/heads/scene_builder_1
+0000000000000000000000000000000000000000 3f3957f1b946c4128fdc11383e74243ca0a65517 Șerban Radu <r.serbannn@gmail.com> 1616241495 +0200	Branch: renamed refs/heads/schimba_scene to refs/heads/scene_builder_1
+3f3957f1b946c4128fdc11383e74243ca0a65517 39425ce1fbffca5f9ad6db5e17137814a4c42605 Șerban Radu <r.serbannn@gmail.com> 1616242269 +0200	commit: Scena empty
+39425ce1fbffca5f9ad6db5e17137814a4c42605 dfefbac68bbad1215d94de2d0aee822ad3234e97 Șerban Radu <r.serbannn@gmail.com> 1616247204 +0200	commit: Window 1080x720 cu exit button functional
+dfefbac68bbad1215d94de2d0aee822ad3234e97 68b7abb77bd9b26a375749aaf7d46b3806609dbc Șerban Radu <r.serbannn@gmail.com> 1616256090 +0200	commit: culori diferite
+68b7abb77bd9b26a375749aaf7d46b3806609dbc 68b7abb77bd9b26a375749aaf7d46b3806609dbc Șerban Radu <r.serbannn@gmail.com> 1616943521 +0300	reset: moving to HEAD
+68b7abb77bd9b26a375749aaf7d46b3806609dbc cdea9bef53a4de54672ac43608f0f1563ab9693c Șerban Radu <r.serbannn@gmail.com> 1616943521 +0300	merge origin/scene_builder_1: Fast-forward
+cdea9bef53a4de54672ac43608f0f1563ab9693c 5c63b548d67423e2081852f3eade1432433ef9fc Șerban Radu <r.serbannn@gmail.com> 1616943556 +0300	pull --no-stat -v --progress origin master: Fast-forward
+5c63b548d67423e2081852f3eade1432433ef9fc 5c63b548d67423e2081852f3eade1432433ef9fc Șerban Radu <r.serbannn@gmail.com> 1616945394 +0300	checkout: moving from scene_builder_1 to browse-fxml-v1
+5c63b548d67423e2081852f3eade1432433ef9fc 2b9a80f3333147e09324e9ac7f073c9cdf14a20d Șerban Radu <r.serbannn@gmail.com> 1616948447 +0300	pull --no-stat -v --progress origin scene_builder_1: Merge made by the 'recursive' strategy.
+2b9a80f3333147e09324e9ac7f073c9cdf14a20d 0000000000000000000000000000000000000000 Șerban Radu <r.serbannn@gmail.com> 1617370941 +0300	Branch: renamed refs/heads/browse-fxml-v1 to refs/heads/Dashboard
+0000000000000000000000000000000000000000 2b9a80f3333147e09324e9ac7f073c9cdf14a20d Șerban Radu <r.serbannn@gmail.com> 1617370941 +0300	Branch: renamed refs/heads/browse-fxml-v1 to refs/heads/Dashboard
+2b9a80f3333147e09324e9ac7f073c9cdf14a20d 0314b009145c95b71323e0de2f00ccf54ed784bb Șerban Radu <r.serbannn@gmail.com> 1617370991 +0300	commit: Dashboard cu legaturi facute intre Browse, Status si Account
+0314b009145c95b71323e0de2f00ccf54ed784bb 5c63b548d67423e2081852f3eade1432433ef9fc Șerban Radu <r.serbannn@gmail.com> 1617372052 +0300	checkout: moving from Dashboard to master
+5c63b548d67423e2081852f3eade1432433ef9fc 422492c4ece3450a0e0ef22e357ae0b5937200ee Șerban Radu <r.serbannn@gmail.com> 1617372178 +0300	merge origin/master: Fast-forward
+422492c4ece3450a0e0ef22e357ae0b5937200ee a92d2e0dc2ad0954f3f60a8cf7747cc0cc049c0d Șerban Radu <r.serbannn@gmail.com> 1617372259 +0300	commit (amend): All files
+a92d2e0dc2ad0954f3f60a8cf7747cc0cc049c0d 0314b009145c95b71323e0de2f00ccf54ed784bb Șerban Radu <r.serbannn@gmail.com> 1617372443 +0300	checkout: moving from master to Dashboard
+0314b009145c95b71323e0de2f00ccf54ed784bb 422492c4ece3450a0e0ef22e357ae0b5937200ee Șerban Radu <r.serbannn@gmail.com> 1617372587 +0300	checkout: moving from Dashboard to master
+422492c4ece3450a0e0ef22e357ae0b5937200ee 422492c4ece3450a0e0ef22e357ae0b5937200ee Șerban Radu <r.serbannn@gmail.com> 1617372608 +0300	branch: Reset to origin/master
+422492c4ece3450a0e0ef22e357ae0b5937200ee 422492c4ece3450a0e0ef22e357ae0b5937200ee Șerban Radu <r.serbannn@gmail.com> 1617372608 +0300	checkout: moving from master to master
+422492c4ece3450a0e0ef22e357ae0b5937200ee 0314b009145c95b71323e0de2f00ccf54ed784bb Șerban Radu <r.serbannn@gmail.com> 1617372650 +0300	checkout: moving from master to Dashboard

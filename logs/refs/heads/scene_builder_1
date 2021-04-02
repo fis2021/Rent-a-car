@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 3f3957f1b946c4128fdc11383e74243ca0a65517 Șerban Radu <r.serbannn@gmail.com> 1615819323 +0200	branch: Created from HEAD
+3f3957f1b946c4128fdc11383e74243ca0a65517 3f3957f1b946c4128fdc11383e74243ca0a65517 Șerban Radu <r.serbannn@gmail.com> 1616241495 +0200	Branch: renamed refs/heads/schimba_scene to refs/heads/scene_builder_1
+3f3957f1b946c4128fdc11383e74243ca0a65517 39425ce1fbffca5f9ad6db5e17137814a4c42605 Șerban Radu <r.serbannn@gmail.com> 1616242269 +0200	commit: Scena empty
+39425ce1fbffca5f9ad6db5e17137814a4c42605 dfefbac68bbad1215d94de2d0aee822ad3234e97 Șerban Radu <r.serbannn@gmail.com> 1616247204 +0200	commit: Window 1080x720 cu exit button functional
+dfefbac68bbad1215d94de2d0aee822ad3234e97 68b7abb77bd9b26a375749aaf7d46b3806609dbc Șerban Radu <r.serbannn@gmail.com> 1616256090 +0200	commit: culori diferite
+68b7abb77bd9b26a375749aaf7d46b3806609dbc cdea9bef53a4de54672ac43608f0f1563ab9693c Șerban Radu <r.serbannn@gmail.com> 1616943521 +0300	merge origin/scene_builder_1: Fast-forward
+cdea9bef53a4de54672ac43608f0f1563ab9693c 5c63b548d67423e2081852f3eade1432433ef9fc Șerban Radu <r.serbannn@gmail.com> 1616943556 +0300	pull --no-stat -v --progress origin master: Fast-forward
