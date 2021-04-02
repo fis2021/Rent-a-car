@@ -1,64 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="528.0" prefWidth="765.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.LoginController">
+<AnchorPane fx:id="loginPane" prefHeight="660.0" prefWidth="850.0" style="-fx-background-color: #414361;" stylesheets="@../stylesheets/stylesheetDashboard.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.LoginController">
    <children>
-      <TextField layoutX="257.0" layoutY="192.0" prefHeight="31.0" prefWidth="251.0" promptText="Username" style="-fx-background-color: #787880;">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </TextField>
-      <PasswordField layoutX="257.0" layoutY="233.0" prefHeight="31.0" prefWidth="251.0" promptText="Passowrd" style="-fx-background-color: #787880;">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </PasswordField>
-      <Button layoutX="399.0" layoutY="285.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="103.0" style="-fx-background-color: #3E389C;" text="Login" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Button>
-      <Button layoutX="257.0" layoutY="328.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="251.0" style="-fx-background-color: #3E389C;" text="Forgot password?" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Button>
-      <ImageView fitHeight="140.0" fitWidth="197.0" layoutX="290.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/car.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="330.0" layoutY="147.0" prefHeight="27.0" prefWidth="59.0" text="Rent a" textFill="#5bb4cd">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="390.0" layoutY="147.0" prefHeight="27.0" prefWidth="30.0" text="Car" textFill="#a2b1b5">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="208.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/iconfinder_user_male2_172626.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="208.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/iconfinder_icons_password_1564520.png" />
-         </image>
-      </ImageView>
-      <JFXButton layoutX="590.0" layoutY="32.0" prefHeight="39.0" prefWidth="121.0" style="-fx-border-color: #727272;" text="Sing in" textFill="WHITE" />
-      <JFXCheckBox layoutX="257.0" layoutY="285.0" prefHeight="27.0" prefWidth="121.0" text="Remember me" textFill="#eeeeee" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #2a2d43;" styleClass="display" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField layoutX="318.0" layoutY="258.0" prefHeight="31.0" prefWidth="251.0" promptText="Username" style="-fx-background-color: #787880;">
+               <font>
+                  <Font name="Consolas Bold" size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="318.0" layoutY="301.0" prefHeight="31.0" prefWidth="251.0" promptText="Password" style="-fx-background-color: #787880;">
+               <font>
+                  <Font name="Consolas Bold" size="16.0" />
+               </font>
+            </PasswordField>
+            <Button layoutX="466.0" layoutY="346.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="103.0" style="-fx-background-color: #414361;" text="Login" textFill="#ffa9e7">
+               <font>
+                  <Font name="Consolas Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="318.0" layoutY="392.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="251.0" style="-fx-background-color: #414361;" text="Forgot password ?" textFill="#ffa9e7">
+               <font>
+                  <Font name="Consolas Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="270.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/iconfinder_user_male2_172626.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="270.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/iconfinder_icons_password_1564520.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="registerButton" alignment="CENTER" buttonType="RAISED" layoutX="316.0" layoutY="438.0" onAction="#loadRegister" prefHeight="39.0" prefWidth="251.0" style="-fx-background-color: #414361;" text="Register" textAlignment="CENTER" textFill="#ffa9e7">
+               <font>
+                  <Font name="Consolas Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXCheckBox layoutX="318.0" layoutY="348.0" prefHeight="27.0" prefWidth="121.0" text="Remember me" textFill="#ffa9e7">
+               <font>
+                  <Font name="Consolas Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

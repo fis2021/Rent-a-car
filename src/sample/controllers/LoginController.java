@@ -1,6 +1,7 @@
 package sample.controllers;
 
 import com.jfoenix.controls.*;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -8,8 +9,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 // Login button
 // Forget Password button
 // Sign in JFXButton
@@ -32,10 +36,13 @@ public class LoginController {
     private Button forgetPassword;
 
     @FXML
-    private JFXButton signIn;
+    private JFXButton registerButton;
 
     @FXML
     private JFXCheckBox rememberMe;
+
+    @FXML
+    private AnchorPane loginPane;
 
     @FXML
     public void loginButtonAction(){
@@ -51,7 +58,11 @@ public class LoginController {
             loginMessage.setText("Password cannot be empty");
             return;
         }
+    }
 
-
+    @FXML
+    public void loadRegister(ActionEvent event) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("../FXML/SignUp.fxml"));
+        loginPane.getChildren().setAll(pane);
     }
 }
