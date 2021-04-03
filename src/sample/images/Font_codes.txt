@@ -1,3 +1,4 @@
-#2D3447 - anchor
-#3E389C - Button
+#414361 - anchor
+#2a2d43 - pane
+#ffa9e7 - text
 
