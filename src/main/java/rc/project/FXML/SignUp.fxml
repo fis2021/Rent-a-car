@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.image.*?>
-<?import com.jfoenix.controls.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="528.0" prefWidth="765.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SignUpController">
+<AnchorPane prefHeight="528.0" prefWidth="765.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SignUpController">
    <children>
       <ImageView fitHeight="140.0" fitWidth="197.0" layoutX="290.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -17,7 +17,7 @@
          </image>
       </ImageView>
       <JFXButton layoutX="369.0" layoutY="428.0" prefHeight="39.0" prefWidth="113.0" />
-      <JFXButton layoutX="260.0" layoutY="380.0" prefHeight="30.0" prefWidth="243.0" style="-fx-background-color: #3E389C;" text="Sign in" textFill="WHITE">
+      <JFXButton fx:id="signIn" layoutX="260.0" layoutY="380.0" onAction="#signInAction" prefHeight="30.0" prefWidth="243.0" style="-fx-background-color: #3E389C;" text="Sign In" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font></JFXButton>
@@ -36,7 +36,7 @@
             <Image url="@../images/iconfinder_icons_password_1564520.png" />
          </image>
       </ImageView>
-      <JFXButton layoutX="590.0" layoutY="32.0" prefHeight="39.0" prefWidth="121.0" style="-fx-border-color: #727272;" text="Login" textFill="WHITE" />
+      <JFXButton fx:id="login" layoutX="590.0" layoutY="32.0" onAction="#loginAction" prefHeight="39.0" prefWidth="121.0" style="-fx-border-color: #727272;" text="Login" textFill="WHITE" />
       <Label layoutX="330.0" layoutY="147.0" prefHeight="27.0" prefWidth="67.0" text="Rent a" textFill="#5bb4cd">
          <font>
             <Font name="System Bold" size="18.0" />
@@ -47,22 +47,22 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="262.0" layoutY="195.0" prefHeight="25.0" prefWidth="113.0" promptText="First Name" style="-fx-background-color: #787880;">
+      <TextField fx:id="firstName" layoutX="262.0" layoutY="195.0" prefHeight="25.0" prefWidth="113.0" promptText="First Name" style="-fx-background-color: #787880;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <TextField layoutX="390.0" layoutY="195.0" prefHeight="25.0" prefWidth="113.0" promptText="Last Name" style="-fx-background-color: #787880;">
+      <TextField fx:id="lastName" layoutX="390.0" layoutY="195.0" prefHeight="25.0" prefWidth="113.0" promptText="Last Name" style="-fx-background-color: #787880;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <TextField layoutX="261.0" layoutY="263.0" prefHeight="30.0" prefWidth="243.0" promptText="exemple@exemple.com" style="-fx-background-color: #787880;">
+      <TextField fx:id="username" layoutX="261.0" layoutY="263.0" prefHeight="30.0" prefWidth="243.0" promptText="exemple@exemple.com" style="-fx-background-color: #787880;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <PasswordField layoutX="262.0" layoutY="325.0" prefHeight="30.0" prefWidth="243.0" promptText="Passowrd" style="-fx-background-color: #787880;">
+      <PasswordField fx:id="password" layoutX="262.0" layoutY="325.0" prefHeight="30.0" prefWidth="243.0" promptText="Passowrd" style="-fx-background-color: #787880;">
          <font>
             <Font size="14.0" />
          </font>

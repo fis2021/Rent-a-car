@@ -1,4 +1,4 @@
-package sample.controllers;
+package rc.project.controllers;
 
 import com.jfoenix.controls.*;
 import javafx.event.ActionEvent;
