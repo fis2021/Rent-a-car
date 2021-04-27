@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -9,10 +9,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="openjdk-16" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="jfoenix-8.0.2" level="project" />
-    <orderEntry type="library" exported="" name="jfoenix-9.0.10" level="project" />
+    <orderEntry type="library" name="jfoenix-8.0.2" level="project" />
+    <orderEntry type="library" name="jfoenix-9.0.10" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:15.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:15.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:15.0.1" level="project" />

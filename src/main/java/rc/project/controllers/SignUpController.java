@@ -41,7 +41,7 @@ public class SignUpController implements Initializable  {
         try {
             signIn.getScene().getWindow().hide();
             Stage stage = new Stage();
-            URL fxmlURL = getClass().getResource("/sample/FXML/LoginMain.fxml");
+            URL fxmlURL = getClass().getResource("../resources/LoginMain.fxml");
             FXMLLoader fxmlLoader = new FXMLLoader(fxmlURL);
             Parent root1 = fxmlLoader.load();
             stage.setScene(new Scene(root1));

@@ -4,16 +4,14 @@ import com.jfoenix.controls.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
-import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 // Login button
 // Forget Password button
 // Sign in JFXButton
@@ -62,7 +60,7 @@ public class LoginController {
 
     @FXML
     public void loadRegister(ActionEvent event) throws IOException {
-        AnchorPane pane = FXMLLoader.load(getClass().getResource("../FXML/SignUp.fxml"));
+        AnchorPane pane = FXMLLoader.load(Objects.requireNonNull(getClass().getClassLoader().getResource("../../../../resources/SignUp.fxml")));
         loginPane.getChildren().setAll(pane);
     }
 }
